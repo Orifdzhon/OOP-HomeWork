@@ -2,7 +2,7 @@ import requests
 import json
 
 text = input("Введите текст для картинки: ")
-yadisk_token = "y0__xDt1MHRBxjblgMg1aS--xXLMiPny7TGtoZHeKpgnPaISMMMbw"
+yadisk_token = "ваш_токен_яндекс_диска_здесь"
 
 group_name = "GB-Python"
 
@@ -60,4 +60,5 @@ if response.status_code == 200:
     else:
         print("Ошибка получения ссылки для загрузки")
 else:
+
     print("Ошибка получения картинки")
